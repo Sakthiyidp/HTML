@@ -1,0 +1,170 @@
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| employes           |
+| information_schema |
+| kgm                |
+| mysql              |
+| performance_schema |
+| player             |
+| player1            |
+| sakila             |
+| student            |
+| studentdb          |
+| students           |
+| sys                |
+| world              |
++--------------------+
+13 rows in set (0.00 sec)
+
+mysql> use kgm;
+Database changed
+mysql> desc kgm;
+ERROR 1146 (42S02): Table 'kgm.kgm' doesn't exist
+mysql> show tables;
+Empty set (0.10 sec)
+
+mysql> use studentdb;
+Database changed
+mysql> desc studentdb;
+ERROR 1146 (42S02): Table 'studentdb.studentdb' doesn't exist
+mysql> show tables;
+Empty set (0.04 sec)
+
+mysql> use students;
+Database changed
+mysql> show tables;
+Empty set (0.00 sec)
+
+mysql> use student;
+Database changed
+mysql> show tables;
++-------------------+
+| Tables_in_student |
++-------------------+
+| student           |
++-------------------+
+1 row in set (0.00 sec)
+
+mysql> alter student rename player;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'student rename player' at line 1
+mysql> use player;
+Database changed
+mysql> show tables;
++------------------+
+| Tables_in_player |
++------------------+
+| player           |
++------------------+
+1 row in set (0.00 sec)
+
+mysql> desc player;
++-------+----------+------+-----+---------+-------+
+| Field | Type     | Null | Key | Default | Extra |
++-------+----------+------+-----+---------+-------+
+| name  | char(20) | YES  |     | NULL    |       |
+| age   | int      | YES  |     | NULL    |       |
+| score | int      | YES  |     | NULL    |       |
++-------+----------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> insert into player (name,age,score)values('raj',26,120);
+Query OK, 1 row affected (0.10 sec)
+
+mysql> desc player;
++-------+----------+------+-----+---------+-------+
+| Field | Type     | Null | Key | Default | Extra |
++-------+----------+------+-----+---------+-------+
+| name  | char(20) | YES  |     | NULL    |       |
+| age   | int      | YES  |     | NULL    |       |
+| score | int      | YES  |     | NULL    |       |
++-------+----------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> select * from player;
++--------+------+-------+
+| name   | age  | score |
++--------+------+-------+
+| ram    |   28 |   120 |
+| charan |   25 |   173 |
+| ravan  |   20 |   152 |
+| raj    |   26 |   120 |
++--------+------+-------+
+4 rows in set (0.00 sec)
+
+mysql> update player set age=30 where age=25;
+Query OK, 1 row affected (0.09 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select * from player;
++--------+------+-------+
+| name   | age  | score |
++--------+------+-------+
+| ram    |   28 |   120 |
+| charan |   30 |   173 |
+| ravan  |   20 |   152 |
+| raj    |   26 |   120 |
++--------+------+-------+
+4 rows in set (0.00 sec)
+
+mysql> delete from player where name='raj';
+Query OK, 1 row affected (0.08 sec)
+
+mysql> select * from player;
++--------+------+-------+
+| name   | age  | score |
++--------+------+-------+
+| ram    |   28 |   120 |
+| charan |   30 |   173 |
+| ravan  |   20 |   152 |
++--------+------+-------+
+3 rows in set (0.00 sec)
+
+mysql> alter table player add strikerate decimal(95,2);
+ERROR 1426 (42000): Too-big precision 95 specified for 'strikerate'. Maximum is 65.
+mysql> alter table player add strikerate decimal(65,2);
+Query OK, 0 rows affected (0.15 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> select * from player;
++--------+------+-------+------------+
+| name   | age  | score | strikerate |
++--------+------+-------+------------+
+| ram    |   28 |   120 |       NULL |
+| charan |   30 |   173 |       NULL |
+| ravan  |   20 |   152 |       NULL |
++--------+------+-------+------------+
+3 rows in set (0.00 sec)
+
+mysql> select name,age from player;
++--------+------+
+| name   | age  |
++--------+------+
+| ram    |   28 |
+| charan |   30 |
+| ravan  |   20 |
++--------+------+
+3 rows in set (0.00 sec)
+
+mysql> alter table change name full_name char(20);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'change name full_name char(20)' at line 1
+mysql> alter table player change name full_name char(20);
+Query OK, 0 rows affected (0.46 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> select * from player;
++-----------+------+-------+------------+
+| full_name | age  | score | strikerate |
++-----------+------+-------+------------+
+| ram       |   28 |   120 |       NULL |
+| charan    |   30 |   173 |       NULL |
+| ravan     |   20 |   152 |       NULL |
++-----------+------+-------+------------+
+3 rows in set (0.00 sec)
+
+mysql> delete from player;
+Query OK, 3 rows affected (0.10 sec)
+
+mysql> select * from player;
+Empty set (0.00 sec)
