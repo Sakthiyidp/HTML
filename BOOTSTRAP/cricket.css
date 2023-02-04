@@ -1,0 +1,28 @@
+header{
+    background-color: #fb4e71;
+    font-family: 'Roboto';
+
+}
+
+body{
+    background-color: #e6f6ff;
+}
+
+.layer1{
+    background-color: white;
+}
+
+.div3{
+    width: 100px;
+    height: 100px;
+}
+
+
+section{
+    font-family: 'Roboto';
+}
+
+footer{
+    font-family: 'Roboto';
+    background-color: white;
+}

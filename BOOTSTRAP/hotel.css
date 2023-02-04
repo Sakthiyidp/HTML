@@ -1,0 +1,21 @@
+body{
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/hotelbg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vh;
+}
+
+.layer1{
+    background-color:black ;
+    opacity: 0.8;
+    border-radius: 20px;
+    position: relative ;
+    margin-top: 250px;
+    margin-left: 150px;
+}
+
+button{
+    border-radius: 10px;
+    position: relative;
+    margin-left: 50px;
+}

@@ -1,0 +1,15 @@
+.div1{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.div2{
+    background-color: #f6c56e;
+    padding: 10px;
+    border-top-left-radius: 10px;
+}
+
+button{
+    border-radius: 20px;
+}

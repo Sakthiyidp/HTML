@@ -1,0 +1,17 @@
+body{
+    background-color: aquamarine;
+    margin: 10px;
+}
+
+.layer1{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+img{
+    width: 120px;
+    height: 90px;
+    top: 10px;
+}

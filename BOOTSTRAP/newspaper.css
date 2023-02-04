@@ -1,0 +1,17 @@
+.div1{
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/newsbg.png');
+    height: 1900px;
+    width: 400px;
+    background-size: cover;
+}
+
+.div2{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: 'Roboto';
+}
+
+.div4{
+    border-radius: 10px;
+}

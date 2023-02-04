@@ -1,0 +1,28 @@
+.div1{
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.div2{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button{
+    border-radius: 20px;
+}
+
+h1{
+    font-family: 'Bree serif';
+}
+
+.div3{
+    background-color: #171f46;
+}
+
+.div4{
+    background-color: #d7dfe9;
+    color: #171f46;
+}
