@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIKE</title>
+</head>
+<body>
+    <h1 style="background-color:pink;font-size:50pt">Bicycle</h1><br>
+    <P><h3 style="background-color:orange;text-align:left;font-size:10pt">Bicycle, also called bike, two-wheeled steerable machine that is pedaled by the rider’s feet. On a standard bicycle the wheels are mounted in-line in a metal frame, with the front wheel held in a rotatable fork. The rider sits on a saddle and steers by leaning and turning handlebars that are attached to the fork. The feet turn pedals attached to cranks and a chainwheel. Power is transmitted by a loop of chain connecting the chainwheel to a sprocket on the rear wheel. Riding is easily mastered, and bikes can be ridden with little effort at 16–24 km (10–15 miles) per hour—about four to five times the pace of walking. The bicycle is the most efficient means yet devised to convert human energy into mobility.</p>
+    <button><a href="https://www.honda2wheelersindia.com/" target="_blank"> lets ride</a></button></h3><br>
+    <img src="https://images.unsplash.com/photo-1609630875171-b1321377ee65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bW90b3JiaWtlfGVufDB8fDB8fA%3D%3D&w=1000&q=80.jpg height="600" width="250"></img>   
+    <h1 style="background-color:aqua">History of the bicycle</h1><br> <h3 style="background-color:green;text-align:right;font-size:25px"> <button><a href="https://en.wikipedia.org/wiki/History_of_the_bicycle" target="_blank">No Fuel</h3></button>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/1886_Swift_Safety_Bicycle_Coventry_Transport_Museum.jpg/400px-1886_Swift_Safety_Bicycle_Coventry_Transport_Museum.jpg" alt="no image here" height="250" width="250"</img>
+    <h1 style="background-color:red">The modern bicycle</h1><br> <h3 style="background-color:orange;text-align:centre;font-size:125%"> <button style="height:40pt;width:80pt"></h3>
+    <img src="C:\Users\User\Downloads\2015-yamaha-yzf-r1-m1_720x540.jpg">       
+    <h1 style="background-color:pink">Benefits of e-bikes</h1><br> <h3 styl7:02 PM 09-Dec-22e="background-color:yellow;text-align:justify"> An electric bicycle (e-bike, eBike, etc.) is a motorized bicycle with an integrated electric motor used to assist propulsion. Many kinds of e-bikes are available worldwide, but they generally fall into two broad categories: bikes that assist the rider's pedal-power (i.e. pedelecs) and bikes that add a throttle, integrating moped-style functionality. Both retain the ability to be pedaled by the rider and are therefore not electric motorcycles. E-bikes use rechargeable batteries and typically are motor-powered up to 25 to 32 km/h (16 to 20 mph). High-powered varieties can often travel more than 45 km/h (28 mph).<br><button><a href="https://www.bikewale.com/electric-bike" target="_blank">Acclerate Me</a></button></h3>
+    <ul style="list-style-type:circle;"><li>BIKES</li></ul><ul style="list-style-type:square;"><li>ENGINE</li></ul><ul style="list-style-type:none;"><li>E-BIKE</li></ul>
+<ol style="list-style-type:lower-alpha;"><li>BIKES</li></ol>
+</body>
+</html>
