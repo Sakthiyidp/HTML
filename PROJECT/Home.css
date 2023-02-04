@@ -1,0 +1,15 @@
+.div1{
+    background-image: url("https://technofaq.org/wp-content/uploads/2016/12/online-bookstore.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+.div2{
+    background-color: #f6c56e;
+    padding: 10px;
+    border-top-left-radius: 10px;
+}
+
+button{
+    border-radius: 20px;
+}

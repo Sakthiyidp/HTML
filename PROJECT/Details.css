@@ -1,0 +1,28 @@
+img{
+    height: 300px;
+    width: 1190px;
+}
+.div1{
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    margin-left: 250px;
+}
+
+div{
+    background-color:khaki ;
+    padding: 10px ;
+    border: 1px solid black;
+}
+
+h2{
+    padding: 10px;
+}
+
+h3{
+    font-family: 'Times New Roman';
+}
+
+h6{
+    font-family: 'Times New Roman';
+}
