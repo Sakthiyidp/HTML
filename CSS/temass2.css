@@ -1,0 +1,60 @@
+body{
+  background-color: grey;
+}
+
+.overlay{
+    background-image: url("https://mouthworks.net/wp-content/uploads/2020/06/Little-boy-playing-superhero-at-the-playground-16-9-1280.jpg");
+    background-size: cover;
+}
+
+
+h3{
+    float: left;
+    width: 30% ;
+    color: cadetblue;
+    font-family:'Lucida Sans Unicode';
+}
+
+ul li{
+    display: inline-block;
+    width: 10%;
+}
+
+.active{
+   color:palevioletred ;
+  }
+
+button{
+    padding: 1px;
+    width: 85%;
+    margin: 1% ;
+    border-radius: 25px;
+    border: 1px solid white;
+    color:black;
+}
+
+p{
+    color: red;
+    margin-right: 20%;
+    margin-left: 10%;
+}
+
+h2{
+    color:white ;
+    margin-right: 20%;
+    margin-left: 10%;
+    font-size:xx-large ;
+}
+
+h4{
+    color:navy ;
+    margin-right: 20%;
+    margin-left: 10%; 
+}
+
+h5{
+    margin-right: 20%;
+    margin-left: 10%;
+    color: red;
+    font-family:'Lucida Sans Unicode' ;
+}

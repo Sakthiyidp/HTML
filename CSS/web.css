@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color: rebeccapurple;
+
+}
+form{
+    float: none;
+}
+.w1{
+    border-radius: 5%;
+    height: 450px;
+    width: 280px;
+    background-color: white;
+    padding: 5px;
+    margin-left: 40%;
+    margin-right:60%;
+}
+
+span{
+    float: right;
+}
+
+input{
+    border-radius: 50px;
+    border-bottom: 1px solid grey;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+button{
+    width: 60%;
+    margin: 15% ;
+    border-radius: 15px;
+    padding: 10px;
+    background-color:white;
+    color: black;
+}
+
+p.one{
+    text-align: center;
+}
+
+.w2{
+    width: 50vw;
+    height: 5vh;
+    margin-left: 20%;
+}

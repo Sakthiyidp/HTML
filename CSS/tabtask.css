@@ -1,0 +1,33 @@
+table, th, td{
+    border-collapse: collapse;
+}
+
+th{
+    background-color:green;
+    padding: 10px;
+}
+
+td{
+    padding: 10px;
+    height: 10px;
+}
+
+tbody tr:nth-child(odd){
+    background-color: grey;
+}
+
+tbody tr:nth-child(even){
+    background-color: whitesmoke;
+}
+
+td:first-child{
+    background-color:forestgreen ;
+}
+
+tbody tr:nth-child(4) td:nth-child(3){
+    background-color: pink;
+}
+
+
+
+

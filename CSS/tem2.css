@@ -1,0 +1,29 @@
+h1{
+    color: red;
+}
+
+h2{
+    color: yellowgreen;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.box1{
+    width: 1150px;
+    height: 350px;
+    margin: 10px;
+    position:relative;
+    text-align: justify;
+}
+
+p{
+    -webkit-column-count: 3;
+    column-count: 3;
+    column-rule: 10px solid green;
+    -webkit-column-width: 30px;
+    -webkit-column-gap: 50px;
+    word-spacing: 10px;
+    text-align: justify;
+    margin: 10px;
+}

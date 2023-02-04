@@ -1,0 +1,27 @@
+/* p{
+    height: 300px;
+    width: 200px;
+    overflow: visible;
+    background-color: thistle;
+} */
+
+/* p{
+    height: 300px;
+    width: 200px;
+    overflow: scroll;
+    background-color: thistle;
+} */
+
+/* p{
+    height: 300px;
+    width: 200px;
+    overflow: hidden;
+    background-color: thistle;
+} */
+
+p{
+    height: 300px;
+    width: 200px;
+    overflow: auto;
+    background-color: thistle;
+}

@@ -1,0 +1,23 @@
+p:hover{
+    background-color: blue;
+    color: darkgoldenrod;
+}
+
+/* p:visited{
+    color: yellow;
+} */
+
+
+/* p:first-child{
+    color:yellow ;
+    background-color: cornflowerblue;
+} */
+
+/* p:nth-child(odd){
+    color: brown;
+} */
+
+/* :nth-child(odd){
+    color: darkgreen;
+
+} */

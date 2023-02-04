@@ -1,0 +1,78 @@
+ul li{
+    display: inline-block;
+    width: 100px;
+    text-align:right ;
+    color: white;
+    font-size: x-large;
+}
+
+body{
+    background-image: url("https://m.media-amazon.com/images/I/61ov9FC+okL._UX679_.jpg");
+    background-size:cover ;
+}
+
+nav{
+    background-color: lightslategray;
+    opacity: 0.7;
+    padding: 1px;
+}
+
+.layer{
+    text-align: left;
+    color: white;
+    margin-left: 70px;
+    
+}
+
+.layer1{
+    text-align: left;
+    color: white;
+}
+
+.layer2{
+    text-align: left;
+    color: white;
+}
+
+h1{
+    background-color: tomato;
+    color: white;
+    font-family: Arial;
+    padding: 20px;
+    margin-left: 70px;
+    margin-right: 900px;
+}
+
+.action{
+    padding: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+}
+
+
+h2{
+    color: white;
+    font-family: Arial;
+    font-size: x-large;
+    padding: 20px;
+    margin-left: 70px;
+    margin-right: 75px;
+}
+
+p{
+    margin-left: 70px;
+    margin-right: 750px;  
+    color: white;
+}
+
+
+
+h3{
+    background-color: tomato;
+    color: white;
+    font-family: Arial;
+    padding: 15px;
+    margin-left: 70px;
+    margin-right: 900px;
+}

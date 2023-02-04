@@ -1,0 +1,23 @@
+/* p{
+    cursor: text;
+} */
+
+/* P{
+    cursor: wait;
+} */
+
+/* p{
+    cursor: help;
+} */
+
+h1{
+    cursor: progress;
+}
+
+/* p{
+    cursor: crosshair;
+} */
+
+p{
+    cursor: move;
+}

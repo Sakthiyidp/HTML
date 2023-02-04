@@ -1,0 +1,43 @@
+body{
+    background-color: tomato;
+}
+
+ul li{
+    display: inline-block;
+  }
+
+  ul{
+   float: right;
+  }
+
+.one{
+    color: white;
+    border: 1px ;
+    width: 620px;
+    height: 150px;
+    margin: 1px;
+    text-align: left;
+    float: right;
+}  
+
+h3{
+    border: 1px ;
+    width: 620px;
+    height: 150px;
+    margin: 1px;
+    float: right;
+    text-align: left;
+    color: white;
+}
+
+
+button{
+    border-radius: 20px;
+    padding: 10px;
+    background-color:royalblue;
+    color: white;
+    border: 1px ;
+    width: 200px;
+    height: 60px;
+    margin: 1px;
+}

@@ -1,0 +1,14 @@
+h1{
+    text-shadow: 2px 2px red;
+    text-align: center;
+}
+
+h2{
+    text-shadow: 2px 2px 5px yellow;
+    text-align: justify;
+}
+
+body{
+    background-color: lightcoral;
+}
+

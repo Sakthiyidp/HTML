@@ -1,0 +1,21 @@
+.fs{
+    font-size: large;
+    font-family: 'Times New Roman';
+    font-style: oblique;
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+
+.txt{
+    color: rgb(251, 84, 7);
+    text-align: left;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-indent: 10px;
+    text-shadow: 5px 5px 10px crimson;
+}
+
+.fs1{
+    word-spacing: 5pt;
+    line-height: 1.5;
+}

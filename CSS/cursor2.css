@@ -1,0 +1,36 @@
+ /* p:hover{
+    cursor: text;
+    color: brown;
+    background-color: yellow;
+
+}  */
+
+ .one:hover{
+    cursor: wait;
+    color: brown;
+    background-color: yellow;
+} 
+
+ .two:hover{
+    cursor: help;
+    color: brown;
+    background-color: yellow;
+} 
+
+ .three:hover{
+    cursor: progress;
+    color: brown;
+    background-color: yellow;
+} 
+
+ .four:hover{
+    cursor: crosshair;
+    color: brown;
+    background-color: yellow;
+} 
+
+.five:hover{
+    cursor: move;
+    color: brown;
+    background-color: yellow;
+}

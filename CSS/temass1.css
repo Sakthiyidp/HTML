@@ -1,0 +1,62 @@
+body{
+    background-image: url("https://images.picxy.com/cache/2020/8/15/3d2a0ac71984ab4a54a4f6c1fbf43ac4.jpg");
+    background-size: cover;
+}
+
+ul li{
+    display: inline-block;
+    float: right ;
+    font-size: 20px;
+    text-shadow: 6px 5px 10px red ;
+    width: 10%;
+}
+
+.left{
+    float: left;
+    font-size: xx-large;
+}
+
+.one{
+    color:white ;
+    border: 1px ;
+    width: 150px;
+    height: 50px;
+    margin: 1px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial;
+}
+
+span{
+    color: yellow;
+}
+
+.two{
+    color:dodgerblue ;
+    margin: 1px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+
+.three{    
+    width: 200px;
+    height: 60px;
+    font-family: Arial ;
+    border: 2px solid yellow;
+    text-align: center;
+    color:darkorange ;
+    margin-right: 50%;
+    margin-left:40%;
+
+}
+
+
+
+
+<img src="https://im.indiatimes.in/media/content/2016/Aug/maharanapratap_1471072333.jpg" class="box1">
+
+<img src="https://www.thefamouspeople.com/profiles/images/og-ashoka-6226.jpg" class="box2">
+
+<img src="https://www.reckontalk.com/wp-content/uploads/2015/09/Rajarajacholan.jpg" class="box3"><br><br>

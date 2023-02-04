@@ -1,0 +1,25 @@
+.txt{
+    background-color:yellow;
+    width: 30%;
+}
+.txt1{
+    background-color:purple;
+    width: 30%;
+    height: 100%;
+    padding-bottom: 30px;
+}
+.txt2{
+    background-color:lawngreen;
+    width: 30%;
+    padding-top: 30px;
+}
+.txt3{
+    background-color:royalblue;
+    width: 30%;
+    padding: 30px 10px 40px;
+}
+.txt4{
+    background-color:red;
+    width: 30%;
+    padding: 30px 0px 30px 25px;
+}

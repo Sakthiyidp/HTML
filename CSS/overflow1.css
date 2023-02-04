@@ -1,0 +1,16 @@
+/* p{
+    height: 300px;
+    width: 100px;
+    overflow-x: scroll;
+    overflow-y: auto;
+    background-color: indianred;
+} */
+
+p{
+    height: 300px;
+    width: 150px;
+    overflow-x: auto;
+    overflow-y: scroll;
+    background-color: indianred;
+}
+

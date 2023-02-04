@@ -1,0 +1,15 @@
+ul li a:link{
+    color: aquamarine;
+}
+
+ul li a:visited{
+    color: chocolate;
+}
+
+ul li a:hover{
+    color: yellow;
+}
+
+ul{
+    background-color: darkgreen;
+}

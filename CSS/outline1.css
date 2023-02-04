@@ -1,0 +1,29 @@
+.dashed{
+    outline-style: dashed ;
+    color: blue;
+}
+
+.double{
+    outline-style: double ;
+    color:orangered;
+}
+
+.dotted{
+    outline-style: dotted ;
+    color:indigo;
+}
+
+.groove{
+    outline-style: groove ;
+    color:darkgoldenrod;
+}
+
+.inset{
+    outline-style: inset ;
+    color:brown ;
+}
+
+.outset{
+    outline-style: outset ;
+    color:aquamarine ;
+}

@@ -1,0 +1,54 @@
+body{
+    background-color:gray ;
+    margin: 10px;
+    padding: 20px;
+}
+
+
+.one {
+    border: 1px solid white;
+    padding: 5px;
+    box-shadow: 4px 8px 8px rgba(245, 241, 241, 0.915);
+    width: 180px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    float: right;
+    margin:35px;
+    
+  }
+  
+.two {
+    /* border: 1px solid white; */
+    padding: 5px;
+    box-shadow: 4px 8px 8px rgba(237, 235, 235, 0.915);
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+    float: right;
+    margin:35px;
+
+  }
+
+  .three {
+    border: 1px solid white;
+    padding: 5px;
+    box-shadow: 4px 8px 8px rgba(237, 235, 235, 0.915);
+    width: 200px;
+    height: 220px;
+    background-color: white;
+    border-radius: 15px;
+    float: right;
+    margin:35px;
+  }
+
+.ele{
+  padding: 15px;
+  margin: 20px;
+  width: 150px;
+  height: 8px;
+  background:-webkit-linear-gradient(bottom right, yellow, green);
+  border: none;
+}
+

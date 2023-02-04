@@ -1,0 +1,42 @@
+table,th,td{
+    border: 1px solid red;
+}
+
+table{
+    border-collapse: separate;
+}
+
+td{
+    padding: 10px;
+    height: 15px;
+}
+
+th{
+    text-align: left;
+}
+
+td{
+    border: 1px solid blue;
+    padding: 10px;
+    height: 20px;
+    vertical-align:1px   ;
+}
+
+a:hover{
+    color: yellow;
+    background-color: red;
+}
+
+tbody tr:nth-child(odd){
+    color: brown;
+    background-color: darkorange;
+}
+
+tbody td:nth-child(even){
+    color: lime;
+    background-color: blue;
+}
+
+
+
+

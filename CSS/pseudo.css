@@ -1,0 +1,25 @@
+/* p::first-line{
+    color: slategray;
+} */
+
+/* p::first-letter{
+    color: coral;
+    font-size: large;
+    font-family: Arial;
+} */
+
+/* p::selection{
+    color: darkgoldenrod;
+    background-color: black;
+} */
+
+/* p::after{
+    content: "-Sakthi idp";
+    background-color: violet;
+} */
+
+p::before{
+    content: "Sakthi idp-";
+    background-color: violet;
+    color:saddlebrown ;
+}

@@ -1,0 +1,7 @@
+.one{
+    background: conic-gradient( yellow, green,pink,blue,orange);
+    padding: 10px;
+    width: 1000px;
+    height: 400px;
+
+}

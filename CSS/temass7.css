@@ -1,0 +1,79 @@
+nav ul li{
+    width:15%;
+    font-family:'Times New Roman';
+    display: inline-block;
+}
+
+
+
+button{
+    background-color: yellow;
+    color: white;
+    height: 30px;
+}
+
+.active{
+    width: 1160px;
+    padding: 5px;
+    border:solid white;
+    background-color: black;
+    color:white;
+    display: inline-block;
+    text-align:end;
+}
+
+
+.layer{
+    width: 50%;
+    margin: 1px ;
+    border:solid white;
+    background-color: white;
+    color:black;
+    display: inline-block;
+}
+
+
+section{
+    background-image: url("https://www.nurturepods.com/wp-content/uploads/2020/02/Successful-School-Year-Header-o96af3j01bm7g1rwwmynt2w0ul881sn10c51suuvew-1024x449.jpg" );
+}
+
+.box1{
+    background-color: white;
+    color: gray;
+    padding: 5px;
+    width: 270px;
+    border: 2px solid orange;
+    margin-left: 30px;
+}
+
+.flex-container {
+    display: inline-flex;
+}
+
+.box2{
+    background-color: orange;
+    color: white;
+    width: 290px;
+    text-align: right;
+}
+
+.box3{
+    background-color:ghostwhite;
+    color: black;
+    width: 290px;
+    text-align: right;
+}
+
+.box4{
+    background-color: ghostwhite;
+    color: black;
+    width: 290px;
+    text-align: right;
+}
+
+.box5{
+    background-color:ghostwhite;
+    color: black;
+    width: 300px;
+    text-align: right;
+}
